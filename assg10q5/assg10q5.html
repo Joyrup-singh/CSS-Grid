@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>justify-items and justify-self</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Justify-items -->
+    <article class="container" tabindex="0">
+        <span>First child</span>
+        <span>Second child</span>
+        <span>Third child</span>
+        <span>Fourth child</span>
+    </article>
+    <div>
+        <h2>Justify-items</h2>
+        <p>
+            The justify-items property is set on the grid container to give child elements (grid items) alignment in the inline direction.<br>
+            For pages in English, inline direction is left to right and block direction is downward.<br>
+            For this property to have any alignment effect, the grid items need available space around themselves in the inline direction.
+        </p>
+    </div>
+    <!-- Justify-self -->
+    <div id="container">
+        <div class="red">RED</div>
+        <div class="blue">BLUE<br>justify-self: right</div>  
+        <div class="green">GREEN</div>
+        <div class="red">RED</div>
+        <div class="green">GREEN</div>
+        <div class="red">RED</div>
+        <div class="green">GREEN</div>
+        <div class="red">RED</div>
+        <div class="green">GREEN</div>
+    </div>
+    <div>
+        <h2>Justify-self</h2>
+        <p>
+            The justify-self property aligns a grid item within its grid cell in the inline direction.<br>
+            For pages in English, inline direction is left to right and block direction is downward.<br>
+            For this property to have any alignment effect, the grid item need available space around itself in the inline direction.
+        </p>
+    </div>      
+</body>
+</html>
